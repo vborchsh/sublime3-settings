@@ -1,0 +1,21 @@
+{
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"sidebar_row_padding_medium": true,
+	"status_bar_brighter": true,
+	"statusbar_size_12": true,
+	"tabs_small": true,
+	"theme": "Afterglow.sublime-theme",
+	"font_size": 12,
+	"mini_diff": "auto",
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"highlight_line": true,
+	"tab_completion": false,
+	"auto_complete": false,
+	"highlight_modified_tabs": true,
+}

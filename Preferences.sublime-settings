@@ -18,4 +18,5 @@
 	"tab_completion": false,
 	"auto_complete": false,
 	"highlight_modified_tabs": true,
+	"rulers": [100],
 }

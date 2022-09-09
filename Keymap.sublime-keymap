@@ -1,8 +1,27 @@
 [
+  // Comments
   { "keys": ["ctrl+t"], "command": "toggle_comment", "args": { "block": false } },
+  
   // Setup autocomplete
   { "keys": ["ctrl+space"], "command": "auto_complete" },
   { "keys": [""], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },
+  
   //
   { "keys": ["ctrl+d"], "command": "duplicate_line" },
+
+  // Terminus stuff
+  { "keys": ["alt+`"], "command": "terminus_close"},
+
+  {
+    "keys": ["alt+`"],
+    "command": "terminus_open",
+    "args": {
+      "config_name": "Default",
+      "cwd": "${file_path:${folder}}",
+      "panel_name": "Terminus"
+    },
+    "context": [
+      { "key": "terminus_view", "operator": "not_equal", "operand": true },
+    ]
+  },
 ]

@@ -10,7 +10,7 @@
 	"statusbar_size_12": true,
 	"tabs_small": true,
 	"theme": "Afterglow.sublime-theme",
-	"font_size": 12,
+	"font_size": 13,
 	"mini_diff": "auto",
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,

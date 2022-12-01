@@ -8,4 +8,7 @@
   
   //
   { "keys": ["ctrl+d"], "command": "duplicate_line" },
+
+  { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
 ]
